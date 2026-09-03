@@ -73,10 +73,10 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 ## 🚀 Instalasi Lokal
 
 1. **Clone repo ini**
-   ```bash
+```bash
    git clone https://github.com/USERNAME/NAMA-REPO.git
    cd NAMA-REPO
-   ```
+```
 
 2. **Siapkan database**
    - Buat database baru di MySQL/MariaDB (misal via phpMyAdmin di XAMPP/Laragon)
@@ -86,19 +86,19 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 3. **Atur koneksi database**
 
    Buat environment variable berikut (lebih aman) atau sesuaikan langsung di `config/database.php`:
-   ```
+```
    DB_HOST=localhost
    DB_USER=nama_user_db
    DB_PASS=password_db
    DB_NAME=nama_database
-   ```
+```
 
    > ⚠️ **Jangan pernah commit kredensial database asli ke repo publik.** Gunakan environment variable, atau file konfigurasi terpisah yang dimasukkan ke `.gitignore`.
 
 4. **Jalankan dengan PHP built-in server** (atau taruh di folder `htdocs` XAMPP/Laragon)
-   ```bash
+```bash
    php -S localhost:8000
-   ```
+```
    Lalu buka `http://localhost:8000` di browser.
 
 ---
@@ -110,6 +110,14 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 3. Upload seluruh file proyek ke `htdocs`/`public_html`
 4. Set environment variable `DB_HOST`, `DB_USER`, `DB_PASS`, `DB_NAME` sesuai kredensial hosting (kalau panel hosting mendukung), atau sesuaikan `config/database.php`
 5. Set `APP_DEBUG` di `config/database.php` menjadi `false` setelah aplikasi berjalan normal, supaya detail error teknis tidak terlihat pengunjung
+
+---
+
+## 📐 Dokumentasi Desain
+
+Wireframe perencanaan halaman (login, dashboard siswa, dashboard admin, katalog, dan modul CRUD) tersedia di file berikut:
+
+- [`wireframe-perpustakaan-sd.docx`](./wireframe-perpustakaan-sd.docx)
 
 ---
 
