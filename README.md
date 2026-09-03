@@ -113,11 +113,11 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 
 ---
 
-## 📐 Dokumentasi Desain
+## 📐 Dokumentasi Struktur
 
-Wireframe perencanaan halaman (login, dashboard siswa, dashboard admin, katalog, dan modul CRUD) tersedia di file berikut:
+Struktur aplikasi (diagram peran & modul, penjelasan peran Admin/Pustakawan dan User/Siswa, serta ringkasan modul dan halaman/file terkait) tersedia di file berikut:
 
-- [`wireframe-perpustakaan-sd.docx`](./wireframe-perpustakaan-sd.docx)
+- [`Struktur_Aplikasi_Perpustakaan_SD_N1_Plebengan.docx`](./Struktur_Aplikasi_Perpustakaan_SD_N1_Plebengan.docx)
 
 ---
 
