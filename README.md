@@ -113,11 +113,38 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 
 ---
 
-## 📐 Dokumentasi Struktur
+## 📐 Struktur Aplikasi
 
-Struktur aplikasi (diagram peran & modul, penjelasan peran Admin/Pustakawan dan User/Siswa, serta ringkasan modul dan halaman/file terkait) tersedia di file berikut:
+### 1. Diagram Struktur
 
-- [`Struktur_Aplikasi_Perpustakaan_SD_N1_Plebengan.docx`](./Struktur_Aplikasi_Perpustakaan_SD_N1_Plebengan.docx)
+Diagram berikut menggambarkan struktur peran dan modul pada aplikasi Perpustakaan SD N 1 Plebengan, terbagi menjadi dua peran utama (Admin/Pustakawan dan User/Siswa) beserta kelompok modul dan halaman di bawahnya.
+
+![Diagram Struktur Aplikasi Perpustakaan SD N 1 Plebengan](./assets/img/struktur-aplikasi.png)
+
+### 2. Penjelasan Struktur
+
+#### 2.1 Peran Admin (Pustakawan)
+
+Admin mengelola seluruh data master dan transaksi perpustakaan, terbagi menjadi dua kelompok modul:
+
+- **Manajemen Data:** `buku.php`, `anggota.php`, `petugas.php`
+- **Transaksi & Verifikasi:** `transaksi.php`, `verifikasi.php`
+
+#### 2.2 Peran User (Siswa)
+
+User (siswa) memiliki akses terbatas untuk melakukan peminjaman, pengembalian, dan mengelola akunnya sendiri:
+
+- **Peminjaman:** `borrow.php`, `return.php`
+- **Akun & Notifikasi:** `dashboard.php`, `usulan.php`, `notifikasi.php`
+
+### 3. Ringkasan Modul
+
+| Peran | Kelompok Modul | Halaman/File |
+|---|---|---|
+| Admin | Manajemen Data | `buku.php`, `anggota.php`, `petugas.php` |
+| Admin | Transaksi & Verifikasi | `transaksi.php`, `verifikasi.php` |
+| User | Peminjaman | `borrow.php`, `return.php` |
+| User | Akun & Notifikasi | `dashboard.php`, `usulan.php`, `notifikasi.php` |
 
 ---
 
