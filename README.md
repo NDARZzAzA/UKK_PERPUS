@@ -119,7 +119,7 @@ Aplikasi web perpustakaan digital untuk **SD Negeri Plebengan**, Bambanglipuro, 
 
 Diagram berikut menggambarkan struktur peran dan modul pada aplikasi Perpustakaan SD N 1 Plebengan, terbagi menjadi dua peran utama (Admin/Pustakawan dan User/Siswa) beserta kelompok modul dan halaman di bawahnya.
 
-![Diagram Struktur Aplikasi Perpustakaan SD N 1 Plebengan](./assets/img/struktur-aplikasi.png)
+![Diagram Struktur Aplikasi Perpustakaan SD N 1 Plebengan](./struktur-aplikasi.png)
 
 ### 2. Penjelasan Struktur
 
